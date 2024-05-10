@@ -1,2 +1,2 @@
-# Web-
+# Web-Teknolojileri
 Web Teknolojileri Proje
