@@ -3,47 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Özel Navbar</title>
+    <title>Hakkımda</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .nav-item:hover {
-            border: 1px solid #400000; 
+            border: 1px solid #3a3d3d; 
             border-radius: 5px; 
+        }
+        body {
+        background-image: url('gorseller/arkaplan.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+        .container {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(134, 142, 142, 0.5);
+        border-radius: 15px;
+        }
+        .container {
+            margin-top: 5rem;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between; 
+        }
+        .flex-container img {
+            width: 48%; 
+            height: auto; 
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #800000;">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #222d33;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Anasayfa</a>
+                        <a class="nav-link" href="index.html">Anasayfa</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Hakkımda <span class="sr-only">(şu anki)</span></a>
+                    <a class="nav-link" href="hakkimda.html">Hakkımda <span class="sr-only">(şu anki)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Özgeçmiş</a>
+                    <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Şehrim</a>
+                    <a class="nav-link" href="sehrim.html">Şehrim</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mirasımız</a>
+                    <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Giriş Yap</a>
+                    <a class="nav-link" href="api.html">İlgi Alanım</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">İletişim</a>
+                    <a class="nav-link" href="login.html">Giriş Yap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="container mt-5">
+        <h1>Ben Kimim?</h1>
+        <p>Merhaba, Ben Gizem Molla. 12 Ekim 2005 tarihinde Fatih/İstanbul'da Yozgatlı bir ailede doğdum ve İstanbul'da yaşıyoruz. 1 ablam ve 2 küçük kız kardeşim var, yani kalabalık bir aileyiz denebilir. </p>
+
+        <p>Şu anda Sakarya Üniversitesi Bilgisayar Mühendisliği 1. sınıf öğrencisiyim. Asıl hedefim sağlık alanı olsa da bilgisayara yönelmiş bulundum. Gelecek ne getirir bilinmez ancak şimdilik pişman olduğum söylenemez. </p>
+        
+        <p>Hedefim sağlık alanı olmasına rağmen küçüklükten beri bilgisayarlara fazla ilgiliydim. Bazı oyunlarda biyografi kısmı için HTML kodlarıyla uğraştığımı ve iyi kötü bir sonuca ulaştığımı hatırlıyorum. Büyüyüp anlayarak kendi kodumu yazıyor olmak gurur verici. </p>
+        
+        <p>Kendimi bölümüm öncelikli olmak üzere elimin uzanabildiği her alanda geliştirmeye çalışarak günlerimi geçiriyorum. Üniversite yıllarımı dolu dolu yaşamaya çalışıyorum, geriye dönüp baktığımda pişmanlık duymak istemiyorum. Geleceğe ve kendime karşı umut doluyum, ileride güzel başarılara sahip olacağımı görebiliyorum. </p>
+    </div>
+    <div class="container mt-5">
+        <h1>Hobilerim</h1>
+         <p>Formula1 ve MotoGP yarışlarını izlemek bana heyecan veriyor. YKS sınavına hazırlanırken stresten ufak bir kaçış olarak görüp izlediğim yarışları sınav geçip gitmesine rağmen hâlen takip ediyorum. </p>
+         <div class="flex-container">
+            <img src="gorseller/formula1.jpg" alt="1">
+            <img src="gorseller/motogp.jpg" alt="2">
+        </div>
+         <br><p>Bisiklet sürmek kendimi bildim bileli yaptığım bir aktivite, hobi. Küçükken İstanbul'un dik yokuşlarında aşağı kaymak en sevdiğim partken büyüyünce arkadaşlarımla sohbet ederek, yeri gelince yarışarak sürdüğümüz kısımlar oldu. Aynı zamanda profesyonel bisiklet yarışlarını izlemek de bana oldukça keyif veriyor.</p>
+         <div class="flex-container">
+            <img src="gorseller/bisiklet1.jpg" alt="1">
+            <img src="gorseller/bisiklet2.jpg" alt="2">
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
